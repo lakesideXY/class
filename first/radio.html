@@ -1,0 +1,52 @@
+<form action="links.html">
+<p> Please select your genre: <br /> 
+<input type="radio" name="genre" value="rock"   /> Rock
+<input type="radio" name="genre" value="pop" /> Pop
+<input type="radio" name="genre" value="Jazz" checked="checked" /> Jazz
+</p> <br/>
+
+<p> Please select your favorite music service(s): <br/>
+<input type="checkbox" name="service" value="itunes" 
+checked="checked" />Itunes
+<input type="checkbox" name="service" value="lastfm" />
+last.fm
+<input type="checkbox" name="service" value="spotify" />Spotify
+<input type="checkbox" name="service" value="audiomack" />Audiomack
+</p><br/>
+
+<p> What device do you listen to music on? </p>
+<select name="devices">
+<option value="ipod">Ipod</option>
+<option value="radio">Radio</option>
+<option value="computer">Computer</option>
+<option value="mp3">Mp3</option>
+</select>
+</p> <br/>
+<p> Do you play any of the following instruments? (You can select moren than one option 
+by holding down control on a pc or command key on a mac while selecting different 
+options.)</p>
+<select name="instruments" size="4" multiple="multiple"">
+<option value="guitar" selected="selected">Guitar</option>
+<option value="drums">Drums</option>
+<option value="keyboard">Keyboard</option>
+<option value="bass">Bass</option>
+</select> <br/>
+<p> Upload your song in MP3 format;</P>
+<input type="file" />
+<input type="submit" value="upload" />
+<p>Upload your image in jpg formar;</p>
+<input type="file"/>
+<input type="submit" value="upload"/>
+</p>
+
+<fieldset>
+<legend>Contact details</legend>
+<label>Email:<br />
+<input type="text" name="email" /></label><br />
+<label>Mobile:<br/>
+<input type="text: name="mobile" /></label><br/>
+<label>Telephone:<br/>
+<input type="text" name="telephone" /></label>
+</fieldset>
+
+</form>
